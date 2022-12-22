@@ -4,7 +4,7 @@
 
 ### External System
 
-- A remote server with Tobii Pro trackers that running [`tobii-grpc-server`](https://github.com/YMiyanohara/tobii-grpc-server)
+- A server with Tobii Pro trackers that running [`tobii-grpc-server`](https://github.com/YMiyanohara/tobii-grpc-server)
 
 Note: You can run `tobii-grpc-server` and this software at the same computer.
 
