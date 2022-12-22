@@ -1,0 +1,4 @@
+
+[submodule "libs/tobii_remote"]
+	path = libs/tobii_remote
+	url = git@github.com:YMiyanohara/tobii_remote.git
