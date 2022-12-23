@@ -1,6 +1,6 @@
-# Setup
+# Image EyeTrack app
 
-## Requirements
+## Setup
 
 ### External System
 
@@ -8,15 +8,15 @@
 
 Note: You can run `tobii-grpc-server` and this software at the same computer.
 
-### Software
+### Software Requirements
 
 - python (^3.10)
 - pyenv (recommended)
 - poetry (recommended)
 
-# Usage
+## Usage
 
-## Install
+### Install
 
 Run
 `poetry install`
@@ -24,13 +24,13 @@ at the root of repository.
 
 You may need to run `pyenv shell 3.XX.YY` then `poetry env use python` to specify which python version to be used by poetry.
 
-## Configure
+### Configure
 
 Please refer `config.yaml` to see available parameters.
 
 Note: By default, configured to call `tobii-grpc-server` running at `localhost:50051`.
 
-## Start appliaction
+### Start appliaction
 
 Run
 `poetry run python image_eyetrack/runner.py`
