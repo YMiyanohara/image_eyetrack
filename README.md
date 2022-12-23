@@ -21,3 +21,7 @@ Note: You can run `tobii-grpc-server` and this software at the same computer.
 ## Configure
 
 ## Start appliaction
+
+---
+
+Sample image from: https://www.pexels.com/ja-jp/photo/276724/
