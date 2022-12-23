@@ -4,9 +4,9 @@
 
 ### External System
 
-- A server with Tobii Pro trackers that running [`tobii-grpc-server`](https://github.com/YMiyanohara/tobii-grpc-server)
+- A server with Tobii Pro trackers that running [`tobii-grpc-server`](https://github.com/YMiyanohara/tobii-grpc-server) example server.
 
-Note: You can run `tobii-grpc-server` and this software at the same computer.
+Note: You can run `tobii-grpc-server`'s example server and this application at the same computer.
 
 ### Software Requirements
 
@@ -35,6 +35,9 @@ Note: By default, configured to call `tobii-grpc-server` running at `localhost:5
 Run
 `poetry run python image_eyetrack/runner.py`
 at the root of repository.
+
+### Set your own image
+Place images to use in `image` dir, then change config.yaml IMG_PATH accordingly.
 
 ---
 
