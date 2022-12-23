@@ -18,9 +18,23 @@ Note: You can run `tobii-grpc-server` and this software at the same computer.
 
 ## Install
 
+Run
+`poetry install`
+at the root of repository.
+
+You may need to run `pyenv shell 3.XX.YY` then `poetry env use python` to specify which python version to be used by poetry.
+
 ## Configure
 
+Please refer `config.yaml` to see available parameters.
+
+Note: By default, configured to call `tobii-grpc-server` running at `localhost:50051`.
+
 ## Start appliaction
+
+Run
+`poetry run python image_eyetrack/runner.py`
+at the root of repository.
 
 ---
 
